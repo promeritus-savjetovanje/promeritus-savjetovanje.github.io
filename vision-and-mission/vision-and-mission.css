@@ -1,0 +1,54 @@
+.split-in-two-container-vision, .split-in-two-container-mission {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    height: 500px;
+}
+
+.split-in-two-container-vision {
+    margin-top: 90px;
+}
+
+.vision-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 15%;
+    padding-left: 40%;
+}
+
+.mission-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 15%;
+    padding-right: 40%;
+}
+
+.right-aligned-content, .left-aligned-content {
+    font-family: 'Nunito', sans-serif;
+
+    line-height: 25px;
+}
+
+.right-aligned-content {
+    text-align: right;
+
+    color: #1B1B63;
+}
+
+.left-aligned-content {
+    color: #FECA08;
+}
+
+.subtitle {
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 17px;
+}

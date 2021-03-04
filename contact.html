@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('user_zdpLnyxSltBjmwUb5Vybt');
+        })();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <script src="shared/shared.js"></script>
+    <script src="contact/contact.js"></script>
+    <link rel="stylesheet" href="shared/shared.css">
+    <link rel="stylesheet" href="contact/contact.css">
+</head>
+
+<body>
+
+    <div id="header" class="header"></div>
+
+    <div class="title-container">
+        <h1 id="contact-title" class="title"></h1>
+    </div>
+
+    <div class="contact-table">
+        <div class="contact-table-cell">
+            <div>
+                PROMERITUS
+                <br>
+                SAVJETOVANJE d.o.o
+                <br><br>
+                HR-10000 Zagreb, 
+                <br>
+                Vlaška 70E, Croatia
+            </div>
+        </div>
+        <div class="contact-table-cell">
+            <div>
+                Tel: + 385 1 4613 633
+                <br>
+                Fax: + 385 1 4573 155
+                <br>
+                MB: 2603993
+                <br>
+                OIB: 54811848932
+            </div>
+        </div>
+        <div class="contact-table-cell">
+            <div>
+                CEO: Terezija Šarić, 
+                <br>
+                M.D., MBA
+                <br><br>    
+                Bank Acc.:
+                <br>
+                OTP BANKA d.d.
+                <br>
+                Domovinskog rata 3,
+                <br>
+                23000 Zadar, Croatia
+                <br><br>   ​
+                IBAN: 
+                <br>
+                HR2824070001100655833
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us-form-title"></div>
+
+    <form id="contact-us-form" class="contact-us-form">
+        <input
+            id="contact-us-form-first-name"
+            class="contact-us-form-input"
+            type="text" 
+            name="first-name" 
+            required>
+        <input
+            id="contact-us-form-last-name"
+            class="contact-us-form-input"
+            type="text"
+            name="last-name"
+            required>
+        <input
+            id="contact-us-form-email"
+            class="contact-us-form-input"
+            type="text"
+            name="email"
+            required>
+        <textarea
+            id="contact-us-form-message"
+            type="text"
+            name="message"
+            required></textarea>
+        <input id="contact-us-form-send" type="submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+.about-us-content {
+    color: #1B1B63;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+
+    text-align: center;
+
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 45px;
+    margin-bottom: 90px;
+
+    line-height: 25px;
+}

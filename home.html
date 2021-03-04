@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <script src="shared/shared.js"></script>
+    <script src="home/home.js"></script>
+    <link rel="stylesheet" href="shared/shared.css">
+    <link rel="stylesheet" href="home/home.css">
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+
+        <div id="first-slide" class="slide fade">
+            <img class="first-home-logo" src="src/images/logo.png">
+            <div class="first-home-language-menu">
+                <button id="first-selected-language" class="first-home-language-menu-button" type="button"></button>
+                <div class="first-home-language-menu-content">
+                  <a id="first-unselected-language" href="javascript:changeLanguage();"></a>
+                </div>
+            </div>
+            <div class="attribution">
+                Photo by <a href="https://burst.shopify.com/@rawpixel?utm_campaign=photo_credit&amp;utm_content=Free+Teamwork+Makes+The+Dream+Work+Photo+%E2%80%94+High+Res+Pictures&amp;utm_medium=referral&amp;utm_source=credit">rawpixel</a> from <a href="https://burst.shopify.com/presentation?utm_campaign=photo_credit&amp;utm_content=Free+Teamwork+Makes+The+Dream+Work+Photo+%E2%80%94+High+Res+Pictures&amp;utm_medium=referral&amp;utm_source=credit">Burst</a>
+            </div>
+        </div>
+        <div id="second-slide" class="slide fade">
+            <img class="second-home-logo" src="src/images/logo.png">
+            <div class="second-home-language-menu">
+                <button id="second-selected-language" class="second-home-language-menu-button" type="button"></button>
+                <div class="second-home-language-menu-content">
+                  <a id="second-unselected-language" href="javascript:changeLanguage();"></a>
+                </div>
+            </div>
+            <div class="attribution">
+                Photo by <a href="https://burst.shopify.com/@matthew_henry?utm_campaign=photo_credit&amp;utm_content=Browse+Free+HD+Images+of+Male+Doctor+Holding+Out+Stethoscope&amp;utm_medium=referral&amp;utm_source=credit">Matthew Henry</a> from <a href="https://burst.shopify.com/doctor?utm_campaign=photo_credit&amp;utm_content=Browse+Free+HD+Images+of+Male+Doctor+Holding+Out+Stethoscope&amp;utm_medium=referral&amp;utm_source=credit">Burst</a>
+            </div>
+        </div>
+        <div id="third-slide" class="slide fade">
+            <img class="third-home-logo" src="src/images/logo.png">
+            <div class="third-home-language-menu">
+                <button id="third-selected-language" class="third-home-language-menu-button" type="button"></button>
+                <div class="third-home-language-menu-content">
+                  <a id="third-unselected-language" href="javascript:changeLanguage();"></a>
+                </div>
+            </div>
+            <div class="attribution">
+                Photo by <a href="https://burst.shopify.com/@matthew_henry?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Reading+Charts+At+Business+Meeting+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit">Matthew Henry</a> from <a href="https://burst.shopify.com/meetings?utm_campaign=photo_credit&amp;utm_content=Free+Stock+Photo+of+Reading+Charts+At+Business+Meeting+%E2%80%94+HD+Images&amp;utm_medium=referral&amp;utm_source=credit">Burst</a>
+            </div>
+        </div>
+
+        <button class="continue-button" type="button" onclick="redirectTo('services')"></button>
+
+    </div>
+
+</body>
+</html>
